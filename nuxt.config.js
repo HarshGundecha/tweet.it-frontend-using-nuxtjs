@@ -14,7 +14,22 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '/adminlte-template/plugins/fontawesome-free/css/all.min.css' },
+      { rel: 'stylesheet', href: 'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' },
+      { rel: 'stylesheet', href: '/adminlte-template/dist/css/adminlte.min.css' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700' },
+    ],
+    script: [
+      { src: '/adminlte-template/plugins/jquery/jquery.min.js', body: true },
+      { src: '/adminlte-template/plugins/bootstrap/js/bootstrap.bundle.min.js', body: true },
+      { src: '/adminlte-template/dist/js/adminlte.min.js', body: true },
+      { src: '/adminlte-template/dist/js/demo.js', body: true },
+    ],
+    bodyAttrs: {
+      class: 'hold-transition sidebar-mini'
+    }
   },
   /*
    ** Customize the progress-bar color
