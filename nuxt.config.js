@@ -86,5 +86,29 @@ export default {
         })
       }      
     }
+  },
+  router: {
+    extendRoutes (routes, resolve) {
+      routes.push({
+        // name: 'custom',
+        // path: '*',
+        // component: resolve(__dirname, 'pages/404.vue')
+        path: '/search/:searchText?', 
+        component: resolve(__dirname, 'pages/Users.vue'), 
+        name:'search',
+        meta: { 
+          requiresAuth: true
+        },
+        props:true
+      })
+      routes.push({
+        path: '/feeds', 
+        component: resolve(__dirname, 'pages/profile/_username/index.vue'), 
+        name:'feeds',
+        meta: { 
+          requiresAuth: true
+        },        
+      })
+    }
   }
 }
