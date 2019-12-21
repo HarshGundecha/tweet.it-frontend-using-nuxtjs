@@ -53,8 +53,8 @@ export default {
   name: 'UserItem',
   props: {
     user: {
-      type: String,
-      default: ''
+      type: Object,
+      default: () => {}
     }
   }
 }
