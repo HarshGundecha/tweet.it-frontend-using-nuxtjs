@@ -28,7 +28,7 @@ export default {
       { src: '/adminlte-template/dist/js/demo.js', body: true },
     ],
     bodyAttrs: {
-      class: 'hold-transition sidebar-mini'
+      class: 'hold-transition sidebar-mini sidebar-collapse'
     }
   },
   /*
