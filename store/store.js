@@ -2,7 +2,8 @@ import Vue from 'vue'
 import axios from 'axios'
 
 // const apiDomain = process.env.VUE_APP_ROOT_API
-const apiDomain = 'http://localhost:8888'
+// const apiDomain = 'http://localhost:8888'
+const apiDomain = 'https://tweeterbackend.herokuapp.comlocalhost:8888'
 
 export const state = () => ({
   status: '',
