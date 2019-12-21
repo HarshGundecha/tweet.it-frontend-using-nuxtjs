@@ -175,8 +175,8 @@ export default {
   },
   props: {
     tweet: {
-      type: () => {},
-      default: Object
+      type: Object,
+      default: () => {}
     }
   },
   data() {
