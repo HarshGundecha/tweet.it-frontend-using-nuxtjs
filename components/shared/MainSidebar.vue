@@ -104,7 +104,12 @@
 import { mapGetters } from 'vuex'
 export default {
   name: 'MainSidebar',
-  props: { mypath: String },
+  props: {
+    mypath: {
+      type: String,
+      default: ''
+    }
+  },
   computed: {
     ...mapGetters({ user: 'store/user', isLoggedIn: 'store/isLoggedIn' })
   },
