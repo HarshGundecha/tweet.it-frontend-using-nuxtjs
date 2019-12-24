@@ -4,7 +4,7 @@
     <!-- User image -->
     <img
       class="img-circle img-sm"
-      src="~/assets/adminlte-template/dist/img/user4-128x128.jpg"
+      :src="require('~/assets/adminlte-template/dist/img/user4-128x128.jpg')"
       alt="User Image"
     />
 
