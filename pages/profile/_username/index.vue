@@ -30,7 +30,7 @@
                 <div class="text-center">
                   <img
                     class="profile-user-img img-fluid img-circle"
-                    :src="require('~/assets/adminlte-template/dist/img/user4-128x128.jpg')"
+                    src="/adminlte-template/dist/img/user4-128x128.jpg"
                     alt="User profile picture"
                   />
                 </div>
