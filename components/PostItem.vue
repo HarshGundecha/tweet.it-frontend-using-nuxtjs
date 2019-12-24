@@ -6,7 +6,7 @@
         <div class="user-block">
           <img
             class="img-circle"
-            src="~assets/adminlte-template/dist/img/user1-128x128.jpg"
+            src="~/assets/adminlte-template/dist/img/user1-128x128.jpg"
             alt="User Image"
           />
           <span class="username"
@@ -138,7 +138,7 @@
               <form @submit.prevent="addComment">
                 <img
                   class="img-fluid img-circle img-sm"
-                  src="~assets/adminlte-template/dist/img/user4-128x128.jpg"
+                  src="~/assets/adminlte-template/dist/img/user4-128x128.jpg"
                   alt="Alt Text"
                 />
                 <div class="img-push">
